@@ -35,13 +35,13 @@ const About: React.FC = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                className="bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition flex items-center whitespace-nowrap"
+                className=" bg-black border-2 border-white text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition flex items-center whitespace-nowrap"
                 href="#"
               >
                 <i className="ri-download-line ri-lg mr-2"></i> Download Resume
               </a>
               <a
-                className="bg-white border-2 border-gray-300 text-gray-700 px-6 py-3 !rounded-button font-medium hover:bg-gray-50 transition whitespace-nowrap"
+                className="bg-white border-black border-2 border-gray-300 text-gray-700 px-6 py-3 !rounded-button font-medium hover:bg-gray-50 transition whitespace-nowrap"
                 href="#contact"
               >
                 Get in Touch

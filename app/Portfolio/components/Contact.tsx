@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 
 const Contact: React.FC = () => {
@@ -6,6 +8,7 @@ const Contact: React.FC = () => {
     email: '',
     subject: '',
     message: '',
+    phone: '',
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -34,6 +37,7 @@ const Contact: React.FC = () => {
         email: '',
         subject: '',
         message: '',
+        phone: '',
       });
     } catch (error) {
       setSubmitStatus('error');
@@ -57,6 +61,11 @@ const Contact: React.FC = () => {
       name: 'Twitter',
       icon: 'ri-twitter-fill',
       url: 'https://twitter.com/yourusername',
+    },
+    {
+      name: 'Instagram',
+      icon: 'ri-instagram-fill',
+      url: 'https://instagram.com/yourusername',
     },
     {
       name: 'Email',

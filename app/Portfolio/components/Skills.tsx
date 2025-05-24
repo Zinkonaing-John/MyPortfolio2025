@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 flex items-center justify-center bg-blue-100 rounded-lg mr-4">
-                <i className="ri-layout-line ri-2x text-primary"></i>
+                <i className="ri-layout-line ri-2x text-blue-600"></i>
               </div>
               <h3 className="text-xl font-semibold text-gray-800">Frontend</h3>
             </div>
@@ -37,7 +37,7 @@ const Skills: React.FC = () => {
               <SkillItem icon="ri-server-fill" color="text-gray-700" name="Express" />
               <SkillItem icon="ri-database-2-fill" color="text-blue-600" name="MongoDB" />
               <SkillItem icon="ri-database-fill" color="text-orange-500" name="MySQL" />
-              <SkillItem icon="ri-python-fill" color="text-blue-500" name="Python" />
+              <SkillItem icon="ri-code-s-slash-line" color="text-blue-500" name="Python" />
               <SkillItem icon="ri-fire-fill" color="text-orange-500" name="Firebase" />
             </div>
           </div>
@@ -53,9 +53,9 @@ const Skills: React.FC = () => {
             <div className="grid grid-cols-3 gap-6">
               <SkillItem icon="ri-git-branch-fill" color="text-orange-600" name="Git" />
               <SkillItem icon="ri-github-fill" color="text-gray-800" name="GitHub" />
-              <SkillItem icon="ri-docker-fill" color="text-blue-500" name="Docker" />
+              <SkillItem icon="ri-box-3-fill" color="text-blue-500" name="Docker" />
               <SkillItem icon="ri-terminal-box-fill" color="text-gray-700" name="CI/CD" />
-              <SkillItem icon="ri-rest-api-fill" color="text-green-600" name="REST API" />
+              <SkillItem icon="ri-exchange-line" color="text-green-600" name="REST API" />
               <SkillItem icon="ri-test-tube-fill" color="text-red-500" name="Testing" />
             </div>
           </div>

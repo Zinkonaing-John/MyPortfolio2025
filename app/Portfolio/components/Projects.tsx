@@ -20,9 +20,8 @@ const Projects: React.FC = () => {
       title: 'E-commerce Platform',
       description:
         'A full-featured online store with product catalog, shopping cart, and secure checkout.',
-      image:
-        'https://readdy.ai/api/search-image?query=modern%20e-commerce%20website%20interface%20with%20clean%20design%2C%20product%20grid%20layout%2C%20shopping%20cart%20icon%2C%20search%20functionality%2C%20minimalist%20UI%2FUX%20design%2C%20high%20quality%20screenshot%20of%20web%20application&amp;width=600&amp;height=400&amp;seq=proj1&amp;orientation=landscape',
-      categories: ['frontend', 'fullstack'],
+      image: 'file.svg',
+      categories: ['frontend', 'fullstack', 'mobile', 'api', 'opensource'],
       technologies: [
         { name: 'React', color: 'blue' },
         { name: 'Node.js', color: 'green' },
@@ -36,9 +35,67 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'Weather Forecast App',
       description: 'Real-time weather forecasts with location detection and 7-day predictions.',
-      image:
-        'https://readdy.ai/api/search-image?query=mobile%20weather%20app%20interface%20showing%20forecast%2C%20temperature%20graphs%2C%20location%20search%2C%20clean%20modern%20UI%20design%2C%20mobile%20app%20screenshot%20with%20weather%20icons%20and%20data%20visualization&amp;width=600&amp;height=400&amp;seq=proj2&amp;orientation=landscape',
+      image: 'file.svg',
       categories: ['frontend', 'mobile'],
+      technologies: [
+        { name: 'React Native', color: 'blue' },
+        { name: 'Redux', color: 'purple' },
+        { name: 'Weather API', color: 'green' },
+      ],
+      demoLink: '#',
+      codeLink: '#',
+    },
+    {
+      id: 3,
+      title: 'Weather Forecast App',
+      description: 'Real-time weather forecasts with location detection and 7-day predictions.',
+      image: 'file.svg',
+      categories: ['frontend', 'mobile'],
+      technologies: [
+        { name: 'React Native', color: 'blue' },
+        { name: 'Redux', color: 'purple' },
+        { name: 'Weather API', color: 'green' },
+      ],
+      demoLink: '#',
+      codeLink: '#',
+    },
+
+    {
+      id: 4,
+      title: 'Weather Forecast App',
+      description: 'Real-time weather forecasts with location detection and 7-day predictions.',
+      image: 'file.svg',
+      categories: ['frontend', 'mobile'],
+      technologies: [
+        { name: 'React Native', color: 'blue' },
+        { name: 'Redux', color: 'purple' },
+        { name: 'Weather API', color: 'green' },
+      ],
+      demoLink: '#',
+      codeLink: '#',
+    },
+
+    {
+      id: 5,
+      title: 'Weather Forecast App',
+      description: 'Real-time weather forecasts with location detection and 7-day predictions.',
+      image: 'file.svg',
+      categories: ['api', 'mobile'],
+      technologies: [
+        { name: 'React Native', color: 'blue' },
+        { name: 'Redux', color: 'purple' },
+        { name: 'Weather API', color: 'green' },
+      ],
+      demoLink: '#',
+      codeLink: '#',
+    },
+
+    {
+      id: 5,
+      title: 'Weather Forecast App',
+      description: 'Real-time weather forecasts with location detection and 7-day predictions.',
+      image: 'file.svg',
+      categories: ['full stack', 'mobile'],
       technologies: [
         { name: 'React Native', color: 'blue' },
         { name: 'Redux', color: 'purple' },
