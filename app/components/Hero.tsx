@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
             <div className="mt-10 flex space-x-4 ">
               <a
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition text-gray-700 hover:text-black"
-                href="https://github.com/yourusername"
+                href="https://github.com/Zinkonaing-John"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -91,7 +91,7 @@ const Projects: React.FC = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       title: 'Weather Forecast App',
       description: 'Real-time weather forecasts with location detection and 7-day predictions.',
       image: 'file.svg',

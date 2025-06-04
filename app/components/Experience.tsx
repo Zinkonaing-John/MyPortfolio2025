@@ -15,20 +15,21 @@ const ExperienceEducation: React.FC = () => {
               <div className="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-lg mr-3">
                 <i className="ri-briefcase-4-fill ri-lg text-primary"></i>
               </div>
-              Work Experience
+              Project Experience
             </h3>
 
             {/** Experience Item 1 */}
             <div className="relative pl-8 pb-12 border-l-2 border-gray-200">
               <div className="absolute -left-2 top-0 w-6 h-6 bg-primary rounded-full"></div>
               <div className="mb-1 flex items-center">
-                <h4 className="text-lg font-semibold text-gray-800">Senior Frontend Developer</h4>
-                <span className="ml-auto text-sm font-medium text-gray-500">2023 - Present</span>
+                <h4 className="text-lg font-semibold text-gray-800"> Frontend Developer</h4>
+                <span className="ml-auto text-sm font-medium text-gray-500">2025 - Present</span>
               </div>
-              <p className="text-gray-600 mb-2">TechVision Solutions, London</p>
+              <p className="text-gray-600 mb-2">Vision College of Jeonju</p>
               <p className="text-gray-600 mb-4">
-                Led the frontend development team for enterprise SaaS applications, improving
-                performance by 40%.
+                엔터프라이즈급 SaaS 애플리케이션의 프론트엔드 개발팀을 리드하며 Next.js 기반 UI
+                성능을 최적화하였고, 이를 통해 전체 애플리케이션 성능을 약 40% 향상시키는 성과를
+                달성하였습니다.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
@@ -38,7 +39,7 @@ const ExperienceEducation: React.FC = () => {
                   TypeScript
                 </span>
                 <span className="px-3 py-1 bg-green-100 text-green-600 text-xs font-medium rounded-full">
-                  Redux
+                  Next.js
                 </span>
               </div>
             </div>
@@ -48,22 +49,26 @@ const ExperienceEducation: React.FC = () => {
               <div className="absolute -left-2 top-0 w-6 h-6 bg-gray-300 rounded-full"></div>
               <div className="mb-1 flex items-center">
                 <h4 className="text-lg font-semibold text-gray-800">Full Stack Developer</h4>
-                <span className="ml-auto text-sm font-medium text-gray-500">2020 - 2023</span>
+                <span className="ml-auto text-sm font-medium text-gray-500">2024 - 2025</span>
               </div>
               <p className="text-gray-600 mb-2">Innovate Digital, Manchester</p>
               <p className="text-gray-600 mb-4">
-                Developed and maintained e-commerce platforms and content management systems for
-                major retail clients.
+                저는 최신 웹 애플리케이션을 개발하는 데 열정을 가진 풀스택 개발자 지망생입니다.
+                Next.js를 활용한 프론트엔드 개발과 Spring Boot 기반의 백엔드 API 구축에 능숙하며,
+                데이터베이스는 MySQL을 사용하여 안정적인 데이터 관리를 수행합니다. 프론트와 백엔드를
+                통합하여 사용자 친화적인 서비스를 만드는 것을 즐기며, 인증 처리, REST API 설계, 배포
+                등도 꾸준히 학습하고 있습니다. 실용적이고 가치 있는 소프트웨어를 만드는 개발자가
+                되는 것이 제 목표입니다.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
-                  Vue.js
+                  Next.js
                 </span>
                 <span className="px-3 py-1 bg-green-100 text-green-600 text-xs font-medium rounded-full">
                   Node.js
                 </span>
                 <span className="px-3 py-1 bg-yellow-100 text-yellow-600 text-xs font-medium rounded-full">
-                  MongoDB
+                  Spring Boot
                 </span>
               </div>
             </div>
@@ -73,12 +78,12 @@ const ExperienceEducation: React.FC = () => {
               <div className="absolute -left-2 top-0 w-6 h-6 bg-gray-300 rounded-full"></div>
               <div className="mb-1 flex items-center">
                 <h4 className="text-lg font-semibold text-gray-800">Junior Web Developer</h4>
-                <span className="ml-auto text-sm font-medium text-gray-500">2018 - 2020</span>
+                <span className="ml-auto text-sm font-medium text-gray-500">2024 - 2025</span>
               </div>
-              <p className="text-gray-600 mb-2">WebCraft Agency, London</p>
+              <p className="text-gray-600 mb-2">Vision College of Jeonju</p>
               <p className="text-gray-600 mb-4">
-                Built responsive websites and implemented UI designs for various clients across
-                different industries.
+                다양한 산업 분야의 클라이언트를 위해 반응형 웹사이트를 구축하고, UI 디자인을
+                효과적으로 구현하여 사용자 경험을 향상시켰습니다.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-orange-100 text-orange-600 text-xs font-medium rounded-full">
@@ -88,7 +93,7 @@ const ExperienceEducation: React.FC = () => {
                   JavaScript
                 </span>
                 <span className="px-3 py-1 bg-purple-100 text-purple-600 text-xs font-medium rounded-full">
-                  WordPress
+                  React
                 </span>
               </div>
             </div>
@@ -107,13 +112,15 @@ const ExperienceEducation: React.FC = () => {
             <div className="relative pl-8 pb-12 border-l-2 border-gray-200">
               <div className="absolute -left-2 top-0 w-6 h-6 bg-primary rounded-full"></div>
               <div className="mb-1 flex items-center">
-                <h4 className="text-lg font-semibold text-gray-800">MSc in Computer Science</h4>
-                <span className="ml-auto text-sm font-medium text-gray-500">2016 - 2018</span>
+                <h4 className="text-lg font-semibold text-gray-800">
+                  Bachelor of English Language(Third Year Student)
+                </h4>
+                <span className="ml-auto text-sm font-medium text-gray-500">2017 - 2020</span>
               </div>
-              <p className="text-gray-600 mb-2">University College London</p>
+              <p className="text-gray-600 mb-2">West Yangon University, Myanmar</p>
               <p className="text-gray-600 mb-4">
-                Specialized in Human-Computer Interaction and Web Technologies. Graduated with
-                Distinction.
+                영어를 전공하면서 문학, 언어, 커뮤니케이션에 깊은 관심을 가지고 공부해왔습니다. 영어
+                언어와 문학을 통해 비판적 사고, 글쓰기, 그리고 분석 능력을 키워온 경험이 있습니다.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
@@ -129,13 +136,16 @@ const ExperienceEducation: React.FC = () => {
             <div className="relative pl-8 pb-12 border-l-2 border-gray-200">
               <div className="absolute -left-2 top-0 w-6 h-6 bg-gray-300 rounded-full"></div>
               <div className="mb-1 flex items-center">
-                <h4 className="text-lg font-semibold text-gray-800">BSc in Software Engineering</h4>
-                <span className="ml-auto text-sm font-medium text-gray-500">2013 - 2016</span>
+                <h4 className="text-lg font-semibold text-gray-800">
+                  Bechlor in Software Engineering
+                </h4>
+                <span className="ml-auto text-sm font-medium text-gray-500">2024 - 2026</span>
               </div>
-              <p className="text-gray-600 mb-2">University of Manchester</p>
+              <p className="text-gray-600 mb-2">Vision College Of Jeonju</p>
               <p className="text-gray-600 mb-4">
-                First Class Honours. Final year project: Developing an Accessible Web Application
-                Framework.
+                업 연구로는 접근성 높은 웹 애플리케이션 프레임워크 개발을 수행하고있습니다. 그동안
+                여러 팀 프로젝트에 참여하며 UI/UX 디자인과 풀스택 개발 경험을 쌓아왔고, 현재는
+                캡스톤 디자인 팀을 이끌고 있습니다.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-green-100 text-green-600 text-xs font-medium rounded-full">
@@ -153,19 +163,14 @@ const ExperienceEducation: React.FC = () => {
               <div className="mb-1 flex items-center">
                 <h4 className="text-lg font-semibold text-gray-800">Professional Certifications</h4>
               </div>
-              <p className="text-gray-600 mb-4">
-                Various industry-recognized certifications in web development and cloud
-                technologies.
-              </p>
+              <p className="text-gray-600 mb-4">certifications</p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
-                  AWS Certified Developer
+                  Teaching Certificate
                 </span>
-                <span className="px-3 py-1 bg-green-100 text-green-600 text-xs font-medium rounded-full">
-                  Google Cloud Associate
-                </span>
+
                 <span className="px-3 py-1 bg-purple-100 text-purple-600 text-xs font-medium rounded-full">
-                  MongoDB Certified Developer
+                  React Certified Developer
                 </span>
               </div>
             </div>

@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
     {
       name: 'GitHub',
       icon: 'ri-github-fill',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Zinkonaing-John',
     },
     {
       name: 'LinkedIn',
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
     {
       name: 'Email',
       icon: 'ri-mail-fill',
-      url: 'mailto:your.email@example.com',
+      url: 'mailto:tr.zinko@covenantyangon.com',
     },
   ];
 
@@ -84,32 +84,32 @@ const Contact: React.FC = () => {
           <div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Let's Connect</h3>
             <p className="text-gray-600 mb-8">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be
-              part of your vision.
+              저는 새로운 프로젝트, 창의적인 아이디어, 또는 여러분의 비전에 함께할 수 있는 기회를
+              언제든지 환영합니다.
             </p>
 
             <div className="space-y-6">
               <div className="flex items-start">
-                <i className="ri-map-pin-line ri-xl text-primary mt-1 mr-4"></i>
+                <i className="ri-map-pin-line ri-xl  text-black mt-1 mr-4"></i>
                 <div>
                   <h4 className="font-medium text-gray-800">Location</h4>
-                  <p className="text-gray-600">London, United Kingdom</p>
+                  <p className="text-gray-600">Vision College of Jeonju</p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <i className="ri-mail-line ri-xl text-primary mt-1 mr-4"></i>
+                <i className="ri-mail-line ri-xl  text-black  mt-1 mr-4"></i>
                 <div>
                   <h4 className="font-medium text-gray-800">Email</h4>
-                  <p className="text-gray-600">your.email@example.com</p>
+                  <p className="text-gray-600">tr.zinko@covenantyangon.com</p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <i className="ri-phone-line ri-xl text-primary mt-1 mr-4"></i>
+                <i className="ri-phone-line ri-xl  text-black  mt-1 mr-4"></i>
                 <div>
                   <h4 className="font-medium text-gray-800">Phone</h4>
-                  <p className="text-gray-600">+44 123 456 7890</p>
+                  <p className="text-gray-600">010-5926-5992</p>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white hover:border-primary transition"
+                    className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-primary hover:bg-black hover:text-white transition"
                   >
                     <i className={`${link.icon} ri-lg`}></i>
                   </a>
@@ -199,7 +199,7 @@ const Contact: React.FC = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full px-6 py-3 bg-blue-400 text-white font-medium rounded-lg hover:bg-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
